@@ -62,20 +62,19 @@ My Skills:
     - JavaScript
     - Python
     - C#
-    - Git basics
-    - Web Design`,
+    - Arduino`,
 
     projects: `
 My Projects:
 1. Yuki
     - <span class="highlight">'yuki'</span> is a command too, try it out!
     - Built with: Python, C#, and Raspberry Pi
-    - Link: <a href="https://github.com/sparrowsaurora">github.com/sparrowsaurora/yuki</a>
+    - Link: <a href="https://github.com/sparrowsaurora/Yuki">github.com/sparrowsaurora/yuki</a>
 
 2. Terminal portfolio
     - A <span class="highlight">'terminal'</span> style portfolio
     - Built with: HTML, CSS, JavaScript
-    - Link: <a href="https://github.com/sparrowsaurora/terminal-style-portfolio">github.com/sparrowsaurora/terminal-style-portfolio</a>`,
+    - Link: <a href="https://sparrowsaurora.github.io/Terminal-Portfolio/">sparrowsaurora.github.io/Terminal-Portfolio</a>`,
 
     email: `
 My Email: <a href="mailto:sparrows.au@gmail.com">sparrows.au@gmail.com</a>`,
