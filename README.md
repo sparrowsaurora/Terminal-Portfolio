@@ -13,9 +13,9 @@ HTML, CSS and JavaScript
 
 ### Based On
 
-[and this site by ForrestKnight](https://fkcodes.com/)
-
 [this site by Prithvi Yewale(cosmicwanderer7)](https://cosmicwanderer7.github.io/Terminal-Portfolio/theme0.html)
+
+[and this site by ForrestKnight](https://fkcodes.com/)
 
 ### Still To-Do
 
@@ -26,4 +26,4 @@ HTML, CSS and JavaScript
 
 Email: [sparrows.au@gmail.com](mailto:sparrows.au@gmail.com)
 
-<p align="right">(<a href="#about-the-project">back to top</a>)</p>
+<p align="right">(<a href="#terminal-style-portfolio">back to top</a>)</p>
