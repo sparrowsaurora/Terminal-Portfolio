@@ -37,7 +37,7 @@ I would love to work with anyone who wants to build a
 SaaS project for their business or even a personal 
 website to showcase their portfolio.
 
-I primarily use python and C# when building my projects.
+I primarily use Python and Rust when building my projects.
 You can learn more about the projects that I have built using 
 the <span class="highlight">'projects'</span> command.
 You can browse around my website to find out more about me.
@@ -53,7 +53,7 @@ Follow me on:
 Twitch: <a href="https://www.twitch.tv/sparrows_aurora">twitch.tv/sparrows_aurora</a>
 Instagram: <a href="https://www.instagram.com/sparrows_aurora">instagram.com/sparrows_aurora</a>
 GitHub: <a href="https://github.com/sparrowsaurora">github.com/sparrowsaurora</a>
-LinkedIn: <a href=""></a>
+LinkedIn: <a href="https://www.linkedin.com/in/ryan-kelley-8762a8285">linkedin.com/ryan-kelley</a>
 Youtube: <a href="https://www.youtube.com/@sparrows_aurora">youtube.com/@sparrows_aurora</a>`,
 
     skills: `
@@ -74,7 +74,12 @@ My Projects:
 2. Terminal portfolio
     - A <span class="highlight">'terminal'</span> style portfolio
     - Built with: HTML, CSS, JavaScript
-    - Link: <a href="https://sparrowsaurora.github.io/Terminal-Portfolio/">sparrowsaurora.github.io/Terminal-Portfolio</a>`,
+    - Link: <a href="https://sparrowsaurora.github.io/Terminal-Portfolio/">sparrowsaurora.github.io/Terminal-Portfolio</a>
+
+3. Adaptive Chess Bot
+    - A <span class="highlight">'chess'</span> bot with it's own neural network
+    - Built with: Python
+    - Link: <a href="https://github.com/sparrowsaurora/Adaptive-Chess-AI">sparrowsaurora/Adaptive-Chess-AI</a>`,
 
     email: `
 My Email: <a href="mailto:sparrows.au@gmail.com">sparrows.au@gmail.com</a>`,
@@ -109,7 +114,13 @@ As well as the ability to have yuki use computer vision and speach processing to
     terminal: `
 This website was made to be something special to me, im not the best at design so i wanted something unique and not fully static.
 plus.. if you can work this website, i know youre someone id love to work with.
-Made with HTML, minimal CSS and a LOT of JavaScript. `
+Made with HTML, minimal CSS and a LOT of JavaScript.`,
+
+    chess: `
+An adaptive chess bot written in Python that analyses the player's skill level and adjusts its gameplay to match or slightly 
+surpass it. The bot currently uses a minimax algorithm with alpha-beta pruning. Built with a custom neural that evaluates 
+board positions and adapts to the player's skill level using an Elo system to be used in the CLI with UCI standard notation. 
+This project adapts to the player's skill level to help players improve their skills at a faster pace.`
 
 };
 
