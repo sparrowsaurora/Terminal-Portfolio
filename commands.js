@@ -9,7 +9,6 @@ Available commands:
 - skills: My skills
 - projects: My projects
 - email: My email
-- banner: Display the header ascii
 - clear: Clear the Terminal 
 - history: Show the command history`,
 
@@ -17,7 +16,7 @@ Available commands:
 Hi! I'm Ryan (Sparrow)
 I'm a software engineer and content creator, who builds cool projects like this one
 and makes YouTube videos about software engineering.
-I'm currently studying a cert IV in programming at North Metropolitan TAFE and 
+I'm currently studying a Diploma of Information Technology (Advanced Programming) at North Metropolitan TAFE and 
 I'm passionate about building new things and innovating new ideas
 
 My fields of intetest are:
@@ -50,11 +49,10 @@ Contact me at <a href="mailto:sparrows.au@gmail.com">sparrows.au@gmail.com</a>`,
 
     socials: `
 Follow me on:
-Twitch: <a href="https://www.twitch.tv/sparrows_aurora">twitch.tv/sparrows_aurora</a>
-Instagram: <a href="https://www.instagram.com/sparrows_aurora">instagram.com/sparrows_aurora</a>
 GitHub: <a href="https://github.com/sparrowsaurora">github.com/sparrowsaurora</a>
 LinkedIn: <a href="https://www.linkedin.com/in/ryan-kelley-8762a8285">linkedin.com/ryan-kelley</a>
-Youtube: <a href="https://www.youtube.com/@sparrows_aurora">youtube.com/@sparrows_aurora</a>`,
+Youtube: <a href="https://www.youtube.com/@sparrows_aurora">youtube.com/@sparrows_aurora</a>
+X (Twitter): <a href="https://x.com/Sparrows_au">x.com/Sparrows_au</a>`,
 
     skills: `
 My Skills:
@@ -62,7 +60,10 @@ My Skills:
     - JavaScript
     - Python
     - C#
-    - Arduino`,
+    - Arduino
+    - C++
+    - Rust
+    - PHP`,
 
     projects: `
 My Projects:
@@ -83,23 +84,6 @@ My Projects:
 
     email: `
 My Email: <a href="mailto:sparrows.au@gmail.com">sparrows.au@gmail.com</a>`,
-
-    banner: `\n                ⢀⣀⣤⡤⠤⠤⠤⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡤⠞⠋⠁⠀⠀⠀⠀⠀⠀⠀⠉⠛⢦⣤⠶⠦⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀      
-⠀⠀⠀⠀⠀⠀⠀⢀⣴⠞⢋⡽⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠃⠀⠀⠙⢶⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    
-⠀⠀⠀⠀⠀⠀⣰⠟⠁⠀⠘⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡀⠀⠀⠉⠓⠦⣤⣤⣤⣤⣤⣤⣄⣀⠀⠀⠀   
-⠀⠀⠀⠀⣠⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣷⡄⠀⠀⢻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣆⠀    
-⠀⠀⣠⠞⠁⠀⠀⣀⣠⣏⡀⠀⢠⣶⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⠿⡃⠀⠀⠄⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡆   
-⢀⡞⠁⠀⣠⠶⠛⠉⠉⠉⠙⢦⡸⣿⡿⠀⠀⠀⡄⢀⣀⣀⡶⠀⠀⠀⢀⡄⣀⠀⣢⠟⢦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⠃    
-⡞⠀⠀⠸⠁⠀⠀⠀⠀⠀⠀⠀⢳⢀⣠⠀⠀⠀⠉⠉⠀⠀⣀⠀⠀⠀⢀⣠⡴⠞⠁⠀⠀⠈⠓⠦⣄⣀⠀⠀⠀⠀⣀⣤⠞⠁ _____
-⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⠀⠁⠀⢀⣀⣀⡴⠋⢻⡉⠙⠾⡟⢿⣅⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠙⠛⠉⠉⠀⠀ / ___/                                                  
-⠘⣦⡀⠀⠀⠀⠀⠀⠀⣀⣤⠞⢉⣹⣯⣍⣿⠉⠟⠀⠀⣸⠳⣄⡀⠀⠀⠙⢧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ / /_     ____   ____ _   _____   _____  ____  _      __
-⠀⠈⠙⠒⠒⠒⠒⠚⠋⠁⠀⡴⠋⢀⡀⢠⡇⠀⠀⠀⠀⠃⠀⠀⠀⠀⠀⢀⡾⠋⢻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  \\__ \\   / __ \\ / __ \`/  / ___/  / ___/ / __ \\| | /| / /
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⢸⡀⠸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⢠⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ___/ /  / /_/ // /_/ /  / /     / /    / /_/ /| |/ |/ / 
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣇⠀⠀⠉⠋⠻⣄⠀⠀⠀⠀⠀⣀⣠⣴⠞⠋⠳⠶⠞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ /____/  / .___/ \\__,_/  /_/     /_/     \\____/ |__/|__/  
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠦⢤⠤⠶⠋⠙⠳⣆⣀⣈⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀       /_/                                     © 2024
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                 
-----~~~~~~~;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;~~~~~~~----------_____________________________________________------~~~~~;;`,
 
     sudo: `
 You're not an admin sry`,
