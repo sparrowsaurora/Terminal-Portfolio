@@ -4,6 +4,7 @@ import commands from './commands.js';
 const banner = document.getElementById('banner');
 const input = document.getElementById('input');
 const output = document.getElementById('output');
+const docWidth = document.body.clientWidth;
 
 var commandLog = []; // array to store command history
 
@@ -75,7 +76,7 @@ function printTitle(text) {
 
 
 // Simulating a typing effect for the welcome message
-function Welcomebanner() {
+function welcomeBannerWide() {
     const bannerTitle = `                ⢀⣀⣤⡤⠤⠤⠤⣤⣄⣀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡤⠞⠋⠁⠀⠀⠀⠀⠀⠀⠀⠉⠛⢦⣤⠶⠦⣤⡀
 ⠀⠀⠀⠀⠀⠀⠀⢀⣴⠞⢋⡽⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠃⠀⠀⠙⢶⣄
@@ -110,5 +111,40 @@ function Welcomebanner() {
     typeChar();
 }
 
-// Call the typing effect function when the page loads
-window.addEventListener('load', Welcomebanner);
+function welcomeBannerThin() {
+    const bannerTitle = `    _____
+   / ___/ 
+  / /_    ____   ____ _ ____ ____ ____  _      __
+  \\__ \\  / __ \\ / __ \`// __// __// __ \\| | /| / /
+ ___/ / / /_/ // /_/ // /  / /  / /_/ /| |/ |/ / 
+/____/ / .___/ \\__,_//_/  /_/   \\____/ |__/|__/  
+      /_/                               © 2025
+      `;
+    let i = 0;
+    function typeChar() {
+        // Define how many characters to add at once
+        const chunkSize = 5; // Adjust this number for speed
+        const nextChunk = bannerTitle.substring(i, i + chunkSize);
+        
+        if (nextChunk.length > 0) {
+            printTitle(nextChunk); // Print the chunk
+            i += chunkSize; // Move the index forward by chunk size
+            setTimeout(typeChar, 15); // Adjust this value for overall speed
+        } else {
+            // Show content after the banner is fully displayed
+            document.getElementById('content').style.display = 'block'; // Show content
+        }
+    }
+    typeChar();
+}
+
+function main() {
+    // Call the typing effect function when the page loads
+    if (docWidth <= 800) {
+        window.addEventListener('load', welcomeBannerThin);
+    } else {
+        window.addEventListener('load', welcomeBannerWide);
+    }
+}
+
+main();
