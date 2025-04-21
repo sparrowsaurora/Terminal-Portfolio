@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terminal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <script type="module" src="script.js" defer></script>
-</head>
-<body>
-    <pre id="banner"></pre>
-    <div id="content" style="display: none;"> <!-- Initially hidden -->
-        <div id="terminal">
-            <div id="output"><span class="header">Welcome! to my interactive web terminal portfolio.<br>For a list of available commands, type <span class="highlight">'help'</span>.</span></div>
-            <div class="command-line">
-                <span class="prompt">visitor@portfolio:~$</span>
-                <input type="text" id="input" autofocus>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Terminal Portfolio</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <script type="module" src="js/script.js" defer></script>
+    </head>
+    <body>
+        <pre id="banner"></pre>
+        <div id="content" style="display: none">
+            <!-- Initially hidden -->
+            <div id="terminal">
+                <div id="output"></div>
+                <div class="command-line">
+                    <span class="prompt">visitor@portfolio:~$</span>
+                    <input type="text" id="input" autofocus />
+                </div>
             </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>

@@ -37,7 +37,7 @@ function readCommandLog() {
 }
 
 // Event listener for when user presses a key in the input field
-input.addEventListener('keypress', function(event) {
+input.addEventListener('keypress', function (event) {
     // Check if Enter key was pressed
     if (event.key === 'Enter') {
         // Get the command
@@ -52,12 +52,12 @@ input.addEventListener('keypress', function(event) {
 });
 
 // Keep focus on input when clicking anywhere on the page
-document.addEventListener('click', function() {
+document.addEventListener('click', function () {
     input.focus();
 });
 
 // Initial focus on input when page loads
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
     input.focus();
 });
 
@@ -98,7 +98,7 @@ function welcomeBannerWide() {
         // Define how many characters to add at once
         const chunkSize = 5; // Adjust this number for speed
         const nextChunk = bannerTitle.substring(i, i + chunkSize);
-        
+
         if (nextChunk.length > 0) {
             printTitle(nextChunk); // Print the chunk
             i += chunkSize; // Move the index forward by chunk size
@@ -125,7 +125,7 @@ function welcomeBannerThin() {
         // Define how many characters to add at once
         const chunkSize = 5; // Adjust this number for speed
         const nextChunk = bannerTitle.substring(i, i + chunkSize);
-        
+
         if (nextChunk.length > 0) {
             printTitle(nextChunk); // Print the chunk
             i += chunkSize; // Move the index forward by chunk size
@@ -138,6 +138,10 @@ function welcomeBannerThin() {
     typeChar();
 }
 
+function welcomeMessage() {
+    output.innerHTML += '\n' + commands["welcome"];
+}
+
 function main() {
     // Call the typing effect function when the page loads
     if (docWidth <= 800) {
@@ -145,6 +149,7 @@ function main() {
     } else {
         window.addEventListener('load', welcomeBannerWide);
     }
+    welcomeMessage()
 }
 
 main();

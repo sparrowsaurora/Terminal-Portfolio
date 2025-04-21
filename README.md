@@ -5,7 +5,7 @@
 A portfolio made to emulate a terminal environment
 This Project is live at
 
-![header image for the site](banner.png)
+![header image for the site](assets/banner.png)
 
 ### Built With
 

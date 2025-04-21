@@ -12,7 +12,7 @@ Available commands:
 - clear: Clear the Terminal 
 - history: Show the command history`,
 
-    about: `
+    about: /*html*/`
 Hi! I'm Ryan (Sparrow)
 I'm a software engineer and content creator, who builds cool projects like this one
 and makes YouTube videos about software engineering.
@@ -45,9 +45,9 @@ You can browse around my website to find out more about me.
 Contact me at <a href="mailto:sparrows.au@gmail.com">sparrows.au@gmail.com</a>`,
 
     resume: `
-<a href="assets/ryan-resume.pdf">My Resume</a>`,
+<a href="assets/Ryan-Resume.pdf">My Resume</a>`,
 
-    socials: `
+    socials: /*html*/`
 Follow me on:
 GitHub: <a href="https://github.com/sparrowsaurora">github.com/sparrowsaurora</a>
 LinkedIn: <a href="https://www.linkedin.com/in/ryan-kelley-8762a8285">linkedin.com/ryan-kelley</a>
@@ -65,7 +65,7 @@ My Skills:
     - Rust
     - PHP`,
 
-    projects: `
+    projects: /*html*/`
 My Projects:
 1. Yuki
     - <span class="highlight">'yuki'</span> is a command too, try it out!
@@ -82,7 +82,7 @@ My Projects:
     - Built with: Python
     - Link: <a href="https://github.com/sparrowsaurora/Adaptive-Chess-AI">sparrowsaurora/Adaptive-Chess-AI</a>`,
 
-    email: `
+    email: /*html*/`
 My Email: <a href="mailto:sparrows.au@gmail.com">sparrows.au@gmail.com</a>`,
 
     sudo: `
@@ -104,7 +104,9 @@ Made with HTML, minimal CSS and a LOT of JavaScript.`,
 An adaptive chess bot written in Python that analyses the player's skill level and adjusts its gameplay to match or slightly 
 surpass it. The bot currently uses a minimax algorithm with alpha-beta pruning. Built with a custom neural that evaluates 
 board positions and adapts to the player's skill level using an Elo system to be used in the CLI with UCI standard notation. 
-This project adapts to the player's skill level to help players improve their skills at a faster pace.`
+This project adapts to the player's skill level to help players improve their skills at a faster pace.`,
+
+    welcome: /*html*/`<span class="header">Welcome! to my interactive web terminal portfolio.<br />For a list of available commands, type <span class="highlight">'help'</span>.</span>`
 
 };
 
