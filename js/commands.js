@@ -44,8 +44,8 @@ You can browse around my website to find out more about me.
 
 Contact me at <a href="mailto:sparrows.au@gmail.com">sparrows.au@gmail.com</a>`,
 
-    resume: `
-<a href="assets/Ryan-Resume.pdf">My Resume</a>`,
+    resume: /*html*/`
+<a href="assets/Ryan_Kelley_Software_Engineer.pdf">My Resume</a>`,
 
     socials: /*html*/`
 Follow me on:
