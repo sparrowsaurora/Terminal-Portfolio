@@ -144,7 +144,7 @@ function welcomeMessage() {
 
 function main() {
     // Call the typing effect function when the page loads
-    if (docWidth <= 800) {
+    if (docWidth <= 1100) {
         window.addEventListener('load', welcomeBannerThin);
     } else {
         window.addEventListener('load', welcomeBannerWide);
