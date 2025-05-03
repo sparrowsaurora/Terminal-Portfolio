@@ -6,7 +6,7 @@ Available commands:
 - about: About me
 - resume: My resume
 - socials: Show my socials
-- skills: My skills
+- languages: My Languages
 - projects: My projects
 - email: My email
 - clear: Clear the Terminal 
@@ -30,13 +30,14 @@ Currently working on exciting projects.
     - Yuki - AI voice-based assistant
     - Terminal - A terminal-style portfolio
     - Adaptive chess Bot - An AI chess bot that adapts to the player's skill level
+    - Stock price prediction - a program to predict the price of a stock in the near future
     etc. (Type <span class="highlight">'projects'</span> to see more)
 
 I would love to work with anyone who wants to build a 
 SaaS project for their business or even a personal 
 website to showcase their portfolio.
 
-I primarily use Python and Rust when building my projects.
+I primarily use Python when building my projects.
 You can learn more about the projects that I have built using 
 the <span class="highlight">'projects'</span> command.
 You can browse around my website to find out more about me.
@@ -54,8 +55,8 @@ LinkedIn: <a href="https://www.linkedin.com/in/ryan-kelley-8762a8285">linkedin.c
 Youtube: <a href="https://www.youtube.com/@sparrows_aurora">youtube.com/@sparrows_aurora</a>
 X (Twitter): <a href="https://x.com/Sparrows_au">x.com/Sparrows_au</a>`,
 
-    skills: `
-My Skills:
+    languages: `
+My Languages:
     - HTML, CSS
     - JavaScript
     - Python
@@ -80,7 +81,12 @@ My Projects:
 3. Adaptive Chess Bot
     - A <span class="highlight">'chess'</span> bot with it's own neural network
     - Built with: Python
-    - Link: <a href="https://github.com/sparrowsaurora/Adaptive-Chess-AI">sparrowsaurora/Adaptive-Chess-AI</a>`,
+    - Link: <a href="https://github.com/sparrowsaurora/Adaptive-Chess-AI">sparrowsaurora/Adaptive-Chess-AI</a>
+    
+4. Stock Price Prediction
+    - A <span class="highlight">'stock'</span> price predict neural network w/ historical data
+    - Built with: Python
+    - Link <a href="https://github.com/sparrowsaurora/stock-price-predicter">sparrowsaurora/stock-price-predicter</a>`,
 
     email: /*html*/`
 My Email: <a href="mailto:sparrows.au@gmail.com">sparrows.au@gmail.com</a>`,
@@ -105,6 +111,11 @@ An adaptive chess bot written in Python that analyses the player's skill level a
 surpass it. The bot currently uses a minimax algorithm with alpha-beta pruning. Built with a custom neural that evaluates 
 board positions and adapts to the player's skill level using an Elo system to be used in the CLI with UCI standard notation. 
 This project adapts to the player's skill level to help players improve their skills at a faster pace.`,
+
+    stock: `
+A custom-built neural network system that analyzes historical stock performance to predict future trends.
+Using the yfinance api, it analyses the data using a custom nerual network and displays the results using Tkinter and Matplotlib;
+testing will be done with a paper trading account.`,
 
     welcome: /*html*/`<span class="header">Welcome! to my interactive web terminal portfolio.<br />For a list of available commands, type <span class="highlight">'help'</span>.</span>`
 
