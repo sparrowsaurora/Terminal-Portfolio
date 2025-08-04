@@ -20,17 +20,16 @@ I'm currently studying a Diploma of Information Technology (Advanced Programming
 I'm passionate about building new things and innovating new ideas
 
 My fields of intetest are:
-    - AI
+    - Algorithmic trading
     - Machine Learning
-    - front end development
+    - back-end development
     - and building functional projects
 
 Currently working on exciting projects.
 (These are all commands, try it to find out more)
-    - Yuki - AI voice-based assistant
+    - Bash-Salt - A small dev toolkit
+    - Stock price prediction API- a program to predict the price of a stock in the near future
     - Terminal - A terminal-style portfolio
-    - Adaptive chess Bot - An AI chess bot that adapts to the player's skill level
-    - Stock price prediction - a program to predict the price of a stock in the near future
     etc. (Type <span class="highlight">'projects'</span> to see more)
 
 I would love to work with anyone who wants to build a 
@@ -57,60 +56,48 @@ X (Twitter): <a href="https://x.com/Sparrows_au">x.com/Sparrows_au</a>`,
 
     languages: `
 My Languages:
-    - HTML, CSS
-    - JavaScript
     - Python
-    - C#
-    - Arduino
-    - C++
     - Rust
+    - Dart
+    - JavaScript
+    - Shell
+    - SQL
+    - C++
     - PHP`,
 
     projects: /*html*/`
 My Projects:
-1. Yuki
-    - <span class="highlight">'yuki'</span> is a command too, try it out!
-    - Built with: Python, C#, and Raspberry Pi
-    - Link: <a href="https://github.com/sparrowsaurora/Yuki">github.com/sparrowsaurora/yuki</a>
+1. Bash-Salt
+    - <span class="highlight">'bashsalt'</span> is a command too, try it out!
+    - Built with: Python, Rust, PHP, Tailwind, Shell, SQL
+    - Link: <a href="https://github.com/sparrowsaurora/Bash-salt">github.com/sparrowsaurora/Bash-salt</a>
 
-2. Terminal portfolio
-    - A <span class="highlight">'terminal'</span> style portfolio
-    - Built with: HTML, CSS, JavaScript
-    - Link: <a href="https://sparrowsaurora.github.io/Terminal-Portfolio/">sparrowsaurora.github.io/Terminal-Portfolio</a>
-
-3. Adaptive Chess Bot
-    - A <span class="highlight">'chess'</span> bot with it's own neural network
-    - Built with: Python
-    - Link: <a href="https://github.com/sparrowsaurora/Adaptive-Chess-AI">sparrowsaurora/Adaptive-Chess-AI</a>
-    
-4. Stock Price Prediction
+2. Stock Price Prediction API
     - A <span class="highlight">'stock'</span> price predict neural network w/ historical data
     - Built with: Python
-    - Link <a href="https://github.com/sparrowsaurora/stock-price-predicter">sparrowsaurora/stock-price-predicter</a>`,
+    - Link <a href="https://github.com/sparrowsaurora/stock-price-predicter">sparrowsaurora/stock-price-predicter</a>
 
+3. Terminal portfolio
+    - A <span class="highlight">'terminal'</span> style portfolio
+    - Built with: HTML, CSS, JavaScript
+    - Link: <a href="https://sparrowsaurora.github.io/Terminal-Portfolio/">sparrowsaurora.github.io/Terminal-Portfolio</a>`,
+    
     email: /*html*/`
 My Email: <a href="mailto:sparrows.au@gmail.com">sparrows.au@gmail.com</a>`,
 
     sudo: `
 You're not an admin sry`,
 
-    yuki: `
-Yuki is my passion project, an AI assistant that helps me with my coding and other tasks.
-That can also communticate with me using a custom voice module and humanised speech,
-Yuki also has a display model made with C# and displayed with a Raspberry Pi and a 7 inch screen.
-this allows for a more immersive experience and a more natural way of interacting with Yuki.
-As well as the ability to have yuki use computer vision and speach processing to help with real life tasks.`,
+    bashsalt: `
+A current free SaaP (Software as a Product) project im working on to help developers work more efficiently.
+A play on words of Bassalt, this is a collection of extra commands and tools for bash to make my life a little easier.
+I was frustrated with manually making file maps, not having quick access to a ToDo list, and typing in long commands, etc. so i made this.
+`,
 
     terminal: `
 This website was made to be something special to me, im not the best at design so i wanted something unique and not fully static.
 plus.. if you can work this website, i know youre someone id love to work with.
 Made with HTML, minimal CSS and a LOT of JavaScript.`,
-
-    chess: `
-An adaptive chess bot written in Python that analyses the player's skill level and adjusts its gameplay to match or slightly 
-surpass it. The bot currently uses a minimax algorithm with alpha-beta pruning. Built with a custom neural that evaluates 
-board positions and adapts to the player's skill level using an Elo system to be used in the CLI with UCI standard notation. 
-This project adapts to the player's skill level to help players improve their skills at a faster pace.`,
 
     stock: `
 A custom-built neural network system that analyzes historical stock performance to predict future trends.
