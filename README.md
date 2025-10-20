@@ -17,11 +17,6 @@ HTML, CSS and JavaScript
 
 [and this site by ForrestKnight](https://fkcodes.com/)
 
-### Still To-Do
-
-- Add new projects
-- Copywrite better text
-
 ## Contact Me
 
 Email: [sparrows.au@gmail.com](mailto:sparrows.au@gmail.com)

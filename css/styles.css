@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Geist Mono", monospace;
 }
 
 body {
@@ -97,5 +100,15 @@ footer {
 }
 
 .header {
+    color: steelblue;
+}
+
+.center {
+    text-align: center;
+    padding-top: 10em;
+    font-size: x-large;
+}
+
+.center>a {
     color: steelblue;
 }
