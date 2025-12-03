@@ -12,7 +12,7 @@ const commands = {
 - history: Show the command history`,
 
     about: /*html*/`Hi! I'm Ryan (Sparrow online)
-I'm a software engineer and content creator, who builds cool projects like this one
+I'm a software engineering student and content creator, who builds cool projects like this one
 and makes YouTube videos about software engineering.
 I'm currently studying a Diploma of Information Technology (Advanced Programming) at North Metropolitan TAFE and 
 I'm passionate about building and learning new things.
