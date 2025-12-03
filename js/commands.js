@@ -38,7 +38,7 @@ You can browse around my website to find out more about me.
 
 Contact me at <a href="mailto:ryankelley1711@gmail.com">ryankelley1711@gmail.com</a>`,
 
-    resume: /*html*/`<a href="assets/Ryan_Kelley_Software_Engineer.pdf">My Resume</a>`,
+    resume: /*html*/`<a href="assets/Ryan-Kelley-Resume.pdf">My Resume</a>`,
 
     socials: /*html*/`Follow me on:
 GitHub: <a href="https://github.com/sparrowsaurora">github.com/sparrowsaurora</a>
