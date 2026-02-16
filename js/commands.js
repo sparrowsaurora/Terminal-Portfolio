@@ -3,7 +3,7 @@ const commands = {
     help: `Available commands:
 - help: Show this message (Again...)
 - about: About me
-- resume: My resume
+- resume: My resume (deprecated)
 - socials: Show my socials
 - languages: My Languages
 - projects: My projects
@@ -36,7 +36,9 @@ You can browse around my website to find out more about me.
 
 Contact me at <a href="mailto:ryankelley1711@gmail.com">ryankelley1711@gmail.com</a>`,
 
-resume: /*html*/`<a href="assets/Ryan-Kelley-Resume.pdf">My Resume</a>`,
+resume: /*html*/`My Resume has been removed from my portfolio.
+please contact me at <a href="mailto:ryankelley1711@gmail.com">ryankelley1711@gmail.com</a> for my resume.
+or to just talk about any role.`,
 
 socials: /*html*/`Follow me on:
 GitHub: <a href="https://github.com/sparrowsaurora">github.com/sparrowsaurora</a>
