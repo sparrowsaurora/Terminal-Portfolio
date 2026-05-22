@@ -104,7 +104,7 @@ Frameworks:
 # Nocturne
     - A local TUI music player called<span class="highlight">'nocturne'</span> 
     - Built with: C++
-    - Link: <a href="https://github.com/sparrowsaurora/Terminal-Portfolio">github.com/sparrowsaurora/Terminal-Portfolio</a>`,
+    - Link: <a href="https://github.com/sparrowsaurora/nocturne">github.com/sparrowsaurora/nocturne</a>`,
 
 // # Terminal portfolio
 //     - A <span class="highlight">'terminal'</span> style portfolio
