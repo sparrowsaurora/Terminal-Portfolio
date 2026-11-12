@@ -19,6 +19,6 @@ HTML, CSS and JavaScript
 
 ## Contact Me
 
-Email: [sparrows.au@gmail.com](mailto:sparrows.au@gmail.com)
+Email: [ryankelley1711@gmail.com](mailto:ryankelley1711@gmail.com)
 
 <p align="right">(<a href="#terminal-style-portfolio">back to top</a>)</p>
